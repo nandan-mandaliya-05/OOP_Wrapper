@@ -578,7 +578,7 @@ PR-5 - OOP_Wrapper/
 README.md
 ```
 
-**Note:** `Employee_management_system.py` is a suggested filename. Replace it with the actual name of your Python script if it is different.
+**Note:** This project uses Python's built-in functions and requires no external libraries.
 
 ---
 
