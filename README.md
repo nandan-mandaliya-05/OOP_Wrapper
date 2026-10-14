@@ -1,285 +1,90 @@
 # OOP_Wrapper
-::: {align="center"}
+<div align="center">
+
 # 👨‍💼 Employee Management System
 
-### A Python-Based Object-Oriented Employee Management Application
+### A Python-Based Object-Oriented Programming Project
 
-`<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=25&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=850&lines=Employee+Management+System;Manage+Employees%2C+Managers+and+Developers;Python+%7C+OOP+%7C+Inheritance;Encapsulation+%7C+Method+Overriding;Console-Based+Management+Application" alt="Animated Typing Header"/>`{=html}
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=25&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=850&lines=Employee+Management+System;Manage+Employees%2C+Managers+and+Developers;Python+%7C+OOP+%7C+Inheritance;Encapsulation+%7C+Method+Overriding" alt="Animated Employee Management System header" />
 
-`<br>`{=html}
+<br>
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Project](https://img.shields.io/badge/Project-Employee%20Management-00C2FF?style=for-the-badge)
-![Application](https://img.shields.io/badge/Application-Console-success?style=for-the-badge)
+![Application](https://img.shields.io/badge/Application-Console-blue?style=for-the-badge)
 ![OOP](https://img.shields.io/badge/Concept-Object--Oriented-purple?style=for-the-badge)
 
-`<br>`{=html}
-:::
+</div>
 
 ------------------------------------------------------------------------
 
-# 🌟 About The Project
-
-**Employee Management System** is a Python-based console application
-designed to create and display information about different types of
-employees.
-
-The application supports three classes of people in an organization:
-**Employee, Manager, and Developer**. Managers and developers inherit
-common employee information from the parent `Employee` class and add
-their own role-specific details.
-
-The program uses a menu-driven interface that allows users to create
-records, display stored details, and check inheritance relationships.
-
-This project demonstrates practical use of Python **Classes, Objects,
-Constructors, Encapsulation, Getters, Setters, Inheritance, `super()`,
-Method Overriding, Lists, Loops, Conditional Statements, and
-`issubclass()`**.
-
-It is a learning project created to strengthen understanding of
-Object-Oriented Programming (OOP) in Python.
-
-> **"Build reusable classes. Protect data. Understand object-oriented
-> programming."**
-
-------------------------------------------------------------------------
-
-# 🎯 Project Objectives
-
-The main objectives of this project are:
-
--   👤 Create employee records with name, age, employee ID, and salary.
--   🧑‍💼 Create managers with an additional department field.
--   💻 Create developers with an additional programming-language field.
--   🔐 Practise encapsulation using private attributes.
--   🔎 Access and update private attributes using getter and setter
-    methods.
--   🧬 Reuse employee attributes through inheritance.
--   ♻️ Call parent-class methods using `super()`.
--   🛠️ Override methods to display role-specific information.
--   📋 Store multiple objects in Python lists.
--   🧪 Check inheritance relationships using `issubclass()`.
--   🏗️ Combine OOP concepts in a menu-driven console application.
-
-------------------------------------------------------------------------
-
-# ✨ Key Features
-
-```{=html}
-<table>
-```
-```{=html}
-<tr>
-```
-```{=html}
-<td width="50%">
-```
-### 👤 Create Employee
-
-Enter a name, age, employee ID, and salary to create an employee object.
-
-```{=html}
-</td>
-```
-```{=html}
-<td width="50%">
-```
-### 🧑‍💼 Create Manager
-
-Create a manager record with common employee details and a department.
-
-```{=html}
-</td>
-```
-```{=html}
-</tr>
-```
-```{=html}
-<tr>
-```
-```{=html}
-<td width="50%">
-```
-### 💻 Create Developer
-
-Create a developer record with common employee details and a programming
-language.
-
-```{=html}
-</td>
-```
-```{=html}
-<td width="50%">
-```
-### 📋 Display Details
-
-Display the saved records for employees, managers, or developers
-separately.
-
-```{=html}
-</td>
-```
-```{=html}
-</tr>
-```
-```{=html}
-<tr>
-```
-```{=html}
-<td width="50%">
-```
-### 🔐 Encapsulation
-
-Keep employee ID and salary in private attributes and provide getter and
-setter methods.
-
-```{=html}
-</td>
-```
-```{=html}
-<td width="50%">
-```
-### 🧬 Inheritance Check
-
-Use `issubclass()` to check whether the manager and developer classes
-inherit from `Employee`.
-
-```{=html}
-</td>
-```
-```{=html}
-</tr>
-```
-```{=html}
-</table>
-```
-
-------------------------------------------------------------------------
-
-# 🧰 Technology Stack
-
-::: {align="center"}
-`<img src="https://skillicons.dev/icons?i=python,vscode,git,github" alt="Python, VS Code, Git and GitHub"/>`{=html}
-:::
-
-### Core Technologies
-
-  -----------------------------------------------------------------------
-  Technology / Concept                Purpose
-  ----------------------------------- -----------------------------------
-  🐍 Python 3.x                       Application development
-
-  🧱 Classes and Objects              Model employees and their
-                                      specialized roles
-
-  🏗️ `__init__()`                     Initialize object attributes
-
-  🔐 Encapsulation                    Keep selected attributes private
-
-  🔎 Getters and Setters              Read and update private attributes
-
-  🧬 Inheritance                      Reuse the `Employee` class in child
-                                      classes
-
-  ♻️ `super()`                        Call parent-class methods and
-                                      constructors
-
-  🛠️ Method Overriding                Customize `display_details()` in
-                                      child classes
-
-  📋 Lists                            Store multiple objects by role
-
-  🔁 `while` and `for` loops          Repeat the menu and display records
-
-  🔀 Conditional Statements           Handle menu selections
-
-  🧪 `issubclass()`                   Check inheritance relationships
-
-  ⌨️ `input()` and `print()`          Interact with the user through the
-                                      terminal
-  -----------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-# 🏗️ Class Structure
-
-The project contains one parent class and two child classes.
-
-## 1. Employee Class
-
-The `Employee` class is the parent class. It stores the common
-information shared by all employee types.
-
-``` python
-class Employee:
-
-    def __init__(self, name, age, employee_id, salary):
-        self.name = name
-        self.age = age
-        self.__employee_id = employee_id
-        self.__salary = salary
-```
-
-### Attributes
-
-  Attribute         Description
-  ----------------- ---------------------
-  `name`            Employee's name
-  `age`             Employee's age
-  `__employee_id`   Private employee ID
-  `__salary`        Private salary
-
-The class also defines getter and setter methods for the private
-attributes, along with `display_details()` to display the employee
-information.
-
-## 2. Manager Class
-
-The `Manager` class inherits from `Employee` and adds a `department`
-attribute.
-
-``` python
-class Manager(Employee):
-
-    def __init__(self, name, age, employee_id, salary, department):
-        super().__init__(name, age, employee_id, salary)
-        self.department = department
-
-    def display_details(self):
-        super().display_details()
-        print(f"Department: {self.department}")
-```
-
-The `super()` function initializes the common employee attributes and
-reuses the parent class's display method.
-
-## 3. Developer Class
-
-The code currently names this class `Devloper`. It inherits from
-`Employee` and adds a `programming_lang` attribute.
-
-``` python
-class Devloper(Employee):
-
-    def __init__(self, name, age, salary, employee_id, programming_lang):
-        super().__init__(name, age, employee_id, salary)
-        self.programming_lang = programming_lang
-
-    def display_details(self):
-        super().display_details()
-        print(f"Programming Language: {self.programming_lang}")
-```
-
-**Naming note:** `Devloper` is the spelling used in the current source
-code. You can rename it to `Developer` consistently throughout the
-program for conventional spelling.
-
-------------------------------------------------------------------------
-
-# 🧬 Inheritance Overview
-
-The `Manager` and `Devloper` classes inherit from the `Employee` class.
+## 🌟 About the Project
+
+**Employee Management System** is a menu-driven Python console
+application created to practise Object-Oriented Programming (OOP).
+
+The program lets users create and display three types of records:
+
+- **Employee** — name, age, employee ID, and salary
+- **Manager** — employee details plus a department
+- **Developer** — employee details plus a programming language
+
+The `Manager` and `Devloper` classes inherit common attributes and
+methods from `Employee`. The program also demonstrates encapsulation,
+getters and setters, `super()`, method overriding, lists of objects, and
+`issubclass()`.
+
+> **Project focus:** Practise core OOP concepts by combining them in one
+> interactive Python program.
+
+## 🎯 Project Objectives
+
+- Create Employee, Manager, and Developer objects.
+- Store and display multiple records for each role.
+- Use private attributes for employee ID and salary.
+- Practise getter and setter methods.
+- Reuse common functionality through inheritance.
+- Override `display_details()` to show role-specific information.
+- Check inheritance relationships using `issubclass()`.
+- Build a menu that repeats until the user exits.
+
+## ✨ Features
+
+| Feature              | Description                                         |
+|----------------------|-----------------------------------------------------|
+| 👤 Create Employee   | Add name, age, employee ID, and salary.             |
+| 🧑‍💼 Create Manager    | Add employee details and a department.              |
+| 💻 Create Developer  | Add employee details and a programming language.    |
+| 📋 Display Details   | Display records separately by role.                 |
+| 🔐 Encapsulation     | Store employee ID and salary in private attributes. |
+| 🧬 Inheritance       | Reuse the `Employee` class in child classes.        |
+| 🛠️ Method Overriding | Display role-specific fields in child classes.      |
+| 🧪 Inheritance Check | Check class relationships with `issubclass()`.      |
+
+## 🧰 Technology and Concepts
+
+<figure>
+<img
+src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white"
+alt="Python" />
+<figcaption aria-hidden="true">Python</figcaption>
+</figure>
+
+| Concept                 | How it is used                                         |
+|-------------------------|--------------------------------------------------------|
+| Classes and objects     | Represent employees and their roles.                   |
+| `__init__()`            | Initialize object attributes.                          |
+| Encapsulation           | Use `__employee_id` and `__salary` private attributes. |
+| Getters and setters     | Read and update private attributes.                    |
+| Inheritance             | `Manager(Employee)` and `Devloper(Employee)`.          |
+| `super()`               | Call the parent constructor and display method.        |
+| Method overriding       | Customize `display_details()` in child classes.        |
+| Lists                   | Keep collections of employee objects in memory.        |
+| `while` and `for` loops | Repeat the menu and display records.                   |
+| `issubclass()`          | Check inheritance relationships.                       |
+
+## 🏗️ Class Structure
+
+The application has one parent class and two child classes.
 
 ``` text
                  Employee
@@ -288,17 +93,83 @@ The `Manager` and `Devloper` classes inherit from the `Employee` class.
              |             |
           Manager       Devloper
              |             |
-         Department   Programming Language
+        Department    Programming Language
 ```
 
-### Inheritance Relationships
+### 1. `Employee`
 
-  Parent Class   Child Class   Relationship
-  -------------- ------------- ------------------------------------
-  `Employee`     `Manager`     Manager is a subclass of Employee
-  `Employee`     `Devloper`    Devloper is a subclass of Employee
+The parent class stores the common information shared by all roles.
 
-The program verifies these relationships with:
+| Attribute       | Description         |
+|-----------------|---------------------|
+| `name`          | Employee’s name     |
+| `age`           | Employee’s age      |
+| `__employee_id` | Private employee ID |
+| `__salary`      | Private salary      |
+
+It also defines `get_employee_id()`, `set_employee_id()`,
+`get_salary()`, `set_salary()`, and `display_details()`.
+
+### 2. `Manager`
+
+`Manager` inherits from `Employee` and adds the `department` attribute.
+Its `display_details()` method calls the parent method with `super()`
+and then displays the department.
+
+### 3. `Devloper` (Developer)
+
+The current source code uses the class name `Devloper`. It inherits from
+`Employee` and adds `programming_lang`. Its `display_details()` method
+also calls the parent method before displaying the programming language.
+
+**Naming note:** If you rename `Devloper` to `Developer`, update every
+occurrence of the class name in the code.
+
+## 🔐 Encapsulation: Getters and Setters
+
+The employee ID and salary use double-underscore attributes:
+
+``` python
+self.__employee_id = employee_id
+self.__salary = salary
+```
+
+Getter methods return the values, while setter methods update them:
+
+``` python
+def get_employee_id(self):
+    return self.__employee_id
+
+def set_employee_id(self, employee_id):
+    self.__employee_id = employee_id
+
+def get_salary(self):
+    return self.__salary
+
+def set_salary(self, salary):
+    self.__salary = salary
+```
+
+These methods are defined in the class, but the current menu does not
+provide an option to update an existing record.
+
+## 🛠️ Inheritance and Method Overriding
+
+Both child classes inherit from `Employee` and override
+`display_details()` to add their own information.
+
+For example, the manager method follows this pattern:
+
+``` python
+def display_details(self):
+    super().display_details()
+    print(f"Department: {self.department}")
+```
+
+The developer class uses the same approach to display
+`programming_lang`.
+
+The inheritance relationship is checked with:
 
 ``` python
 print(issubclass(Manager, Employee))
@@ -312,68 +183,7 @@ True
 True
 ```
 
-------------------------------------------------------------------------
-
-# 🔐 Encapsulation: Getters and Setters
-
-The employee ID and salary are stored using double-underscore attribute
-names:
-
-``` python
-self.__employee_id = employee_id
-self.__salary = salary
-```
-
-Getter methods return the values:
-
-``` python
-def get_employee_id(self):
-    return self.__employee_id
-
-def get_salary(self):
-    return self.__salary
-```
-
-Setter methods update the values:
-
-``` python
-def set_employee_id(self, employee_id):
-    self.__employee_id = employee_id
-
-def set_salary(self, salary):
-    self.__salary = salary
-```
-
-These methods demonstrate controlled access to attributes. The current
-menu does not yet provide an option for updating an existing record; the
-setters are available to be called directly from Python code.
-
-------------------------------------------------------------------------
-
-# 🛠️ Method Overriding
-
-All employee types share the `display_details()` method, but managers
-and developers need to display additional information.
-
-The child classes override the method and call the parent's version
-using `super()`.
-
-``` python
-def display_details(self):
-    super().display_details()
-    print(f"Department: {self.department}")
-```
-
-For a developer, the additional field is the programming language.
-
-This approach avoids rewriting the common employee details in every
-subclass.
-
-------------------------------------------------------------------------
-
-# 📋 Menu Options
-
-When the program starts, it displays the following menu:
+## 📋 Menu Options
 
 ``` text
 ~~~~~~~~~~~~~~~~~~~~ Employee Management System ~~~~~~~~~~~~~~~~~~~~
@@ -385,42 +195,26 @@ Select a option:
 4. Show Details
 5. Check Inharitance
 6. Exit System
-
-Enter your option:
 ```
 
-  Option   Action
-  -------- -----------------------------------------------------
-  1        Create an Employee
-  2        Create a Manager
-  3        Create a Developer (`Devloper` in the current code)
-  4        Show saved details by role
-  5        Check inheritance relationships
-  6        Exit the system
+| Option | Action                                              |
+|--------|-----------------------------------------------------|
+| 1      | Create an Employee                                  |
+| 2      | Create a Manager                                    |
+| 3      | Create a Developer (`Devloper` in the current code) |
+| 4      | Display details by role                             |
+| 5      | Check inheritance                                   |
+| 6      | Exit the application                                |
 
-The `while` loop keeps displaying the menu until the user selects option
-6.
+The `while` loop repeats the menu until option 6 is selected.
 
-------------------------------------------------------------------------
+## ▶️ Example Output
 
-# 👤 1. Create an Employee
-
-Choose option 1 and enter the employee's details.
-
-### Example Input
+### Employee
 
 ``` text
-Enter a name: Rahul
-Enter a age: 25
-Enter a Employee id: 101
-Enter a salary: 35000
-
 Employee created successfully.
-```
 
-### Example Display
-
-``` text
 Employee Details:
 
 Name: Rahul
@@ -429,37 +223,11 @@ Employee id: 101
 Salary: ₹35000
 ```
 
-The newly created object is stored in the `employee` list.
-
-``` python
-employee = []
-
-employ = Employee(name, age, employee_id, salary)
-employee.append(employ)
-```
-
-------------------------------------------------------------------------
-
-# 🧑‍💼 2. Create a Manager
-
-Choose option 2 to create a manager. In addition to common employee
-details, enter the manager's department.
-
-### Example Input
+### Manager
 
 ``` text
-Enter a name: Priya
-Enter a age: 32
-Enter a Employee id: 201
-Enter a salary: 60000
-Enter a department: IT
-
 Manager created successfully.
-```
 
-### Example Display
-
-``` text
 Name: Priya
 Age: 32
 Employee id: 201
@@ -467,37 +235,11 @@ Salary: ₹60000
 Department: IT
 ```
 
-The manager object is stored in the `manager` list.
-
-``` python
-manager = []
-
-manage = Manager(name, age, employee_id, salary, department)
-manager.append(manage)
-```
-
-------------------------------------------------------------------------
-
-# 💻 3. Create a Developer
-
-Choose option 3 to create a developer. The additional field records the
-programming language.
-
-### Example Input
+### Developer
 
 ``` text
-Enter a name: Arjun
-Enter a age: 27
-Enter a Employee id: 301
-Enter a salary: 50000
-Enter a language: Python
-
 Devloper created successfully.
-```
 
-### Example Display
-
-``` text
 Name: Arjun
 Age: 27
 Employee id: 301
@@ -505,377 +247,157 @@ Salary: ₹50000
 Programming Language: Python
 ```
 
-The developer object is stored in the `devloper` list.
+*The names and values above are examples to illustrate the program’s
+output format.*
 
-``` python
-devloper = []
-
-devlop = Devloper(name, age, employee_id, salary, language)
-devloper.append(devlop)
-```
-
-------------------------------------------------------------------------
-
-# 📋 4. Show Details
-
-Option 4 opens a second menu:
+## 🔄 Application Workflow
 
 ``` text
-Select a choice:
-1. Employee
-2. Manager
-3. Devloper
-
-Enter a choice:
+          +------------------+
+          |      START       |
+          +--------+---------+
+                   |
+          +--------v---------+
+          |   Display Menu   |
+          +--------+---------+
+                   |
+          +--------v---------+
+          |  Enter Option    |
+          +--------+---------+
+                   |
+       +-----------+------------+
+       |           |            |
+   Create Role  Show Details  Check Inheritance
+       |           |            |
+       +-----------+------------+
+                   |
+          +--------v---------+
+          | Repeat or Exit   |
+          +--------+---------+
+                   |
+                  END
 ```
 
-The program checks the selected list and displays every stored object of
-that role.
-
-Example:
-
-``` python
-for emp in employee:
-    emp.display_details()
-    print()
-```
-
-The same pattern is used for manager and developer objects.
-
-If a list is empty, the program displays a message instead of trying to
-display records that do not exist.
-
-------------------------------------------------------------------------
-
-# 🧪 5. Check Inheritance
-
-Option 5 uses Python's built-in `issubclass()` function.
-
-``` python
-print(
-    "Manager class is subclass of employee:",
-    issubclass(Manager, Employee)
-)
-
-print(
-    "Devloper class is subclass of employee:",
-    issubclass(Devloper, Employee)
-)
-```
-
-### Expected Output
-
-``` text
-Manager class is subclass of employee: True
-Devloper class is subclass of employee: True
-```
-
-Both results are `True` because the two classes inherit from `Employee`.
-
-------------------------------------------------------------------------
-
-# 🔄 Application Workflow
-
-``` text
-              +----------------------+
-              |        START         |
-              +----------+-----------+
-                         |
-              +----------v-----------+
-              |     Display Menu     |
-              +----------+-----------+
-                         |
-              +----------v-----------+
-              |    Enter Choice      |
-              +----------+-----------+
-                         |
-        +----------------+----------------+
-        |                |                |
-   Create Employee  Show Details    Check Inheritance
-        |                |                |
-   +----+-----+     Select Role       issubclass()
-   |          |          |                |
- Employee  Manager /  Display Stored      Show Result
-           Devloper      Objects
-        |                |
-        +----------------+
-                         |
-              +----------v-----------+
-              |   Continue Menu?     |
-              +----------+-----------+
-                         |
-                 Exit when selected
-                         |
-              +----------v-----------+
-              |         END          |
-              +----------------------+
-```
-
-------------------------------------------------------------------------
-
-# 📁 Project Structure
+## 📁 Project Structure
 
 ``` text
 Employee-Management-System/
-│
 ├── employee_management.py
 └── README.md
 ```
 
-**Note:** `employee_management.py` is a suggested filename. Use the
-actual filename of your Python script when running the program.
+`employee_management.py` is a suggested filename. Replace it with the
+actual name of your Python file if it is different.
 
-This project uses Python's built-in features and requires no external
-libraries.
+## 🚀 How to Run
 
-------------------------------------------------------------------------
+**Requirements** - Python 3.x - A terminal or command prompt - No
+third-party Python packages are required
 
-# 🚀 How to Run the Project
-
-### 1. Clone the Repository
-
-Replace the placeholder with your GitHub repository URL.
+**1. Clone your repository**
 
 ``` bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-### 2. Navigate to the Project Folder
+**2. Open the project directory**
 
 ``` bash
 cd Employee-Management-System
 ```
 
-### 3. Run the Python Program
+**3. Run the program**
 
 ``` bash
 python employee_management.py
 ```
 
-If Python is installed and configured correctly, the Employee Management
-System menu will appear in the terminal.
+If your Python installation uses the `py` launcher on Windows, you can
+also run:
 
-### Requirements
-
--   Python 3.x
--   Terminal or command prompt
--   A code editor such as Visual Studio Code (optional)
-
-------------------------------------------------------------------------
-
-# 🧠 Python Concepts Practised
-
-### 🧱 Classes and Objects
-
-Created objects from the `Employee`, `Manager`, and `Devloper` classes.
-
-### 🏗️ Constructors
-
-Used `__init__()` to initialize each object's attributes.
-
-### 🔐 Encapsulation
-
-Used private attributes for employee ID and salary, with getter and
-setter methods.
-
-### 🧬 Inheritance
-
-Reused the common attributes and methods of the `Employee` class in
-child classes.
-
-### ♻️ `super()`
-
-Called the parent constructor and parent display method from child
-classes.
-
-### 🛠️ Method Overriding
-
-Customized `display_details()` for managers and developers.
-
-### 📋 Lists of Objects
-
-Stored multiple records in separate lists and iterated through them to
-display details.
-
-### 🔁 Loops
-
-Used a `while` loop for the main menu and `for` loops to display
-records.
-
-### 🔀 Conditional Statements
-
-Used `if`, `elif`, and `else` to process menu choices.
-
-### 🧪 Built-in Functions
-
-Used `len()` to check whether a list contains records and `issubclass()`
-to check inheritance.
-
-------------------------------------------------------------------------
-
-# 📈 Project Learning Outcomes
-
-Through this project, I practised:
-
--   🐍 Python programming fundamentals.
--   🧱 Designing classes and creating objects.
--   🏗️ Initializing objects with constructors.
--   🔐 Implementing encapsulation with private attributes.
--   🔎 Creating getter and setter methods.
--   🧬 Applying inheritance to reduce code duplication.
--   ♻️ Reusing parent class methods with `super()`.
--   🛠️ Overriding methods in child classes.
--   📋 Storing and managing objects in lists.
--   🔁 Building a repeating menu with loops.
--   🧪 Checking class relationships with `issubclass()`.
--   🏗️ Combining OOP concepts into a practical console application.
-
-------------------------------------------------------------------------
-
-# ⚠️ Current Limitations
-
-The current version is designed for practising OOP concepts. It has the
-following limitations:
-
--   💾 Records are stored only in memory and are lost when the program
-    exits.
--   ✏️ The menu does not yet include update or delete operations.
--   🔍 There is no employee search feature.
--   🛡️ Invalid numeric input can cause an error because input validation
-    is limited.
--   🆔 Duplicate employee IDs are not checked.
--   🔐 The getter and setter methods are implemented, but there is no
-    menu option to use them.
--   📝 The class name `Devloper` and some menu text contain spelling
-    errors.
-
-------------------------------------------------------------------------
-
-# 🔮 Future Enhancements
-
-The project can be improved with the following features:
-
--   🔎 Search employees by ID or name.
--   ✏️ Update existing employee information.
--   🗑️ Delete employee records.
--   💾 Save and load records using JSON or CSV.
--   🗄️ Store employee data in a database such as SQLite.
--   🆔 Prevent duplicate employee IDs.
--   🛡️ Add input validation and exception handling.
--   💰 Validate salary and age values.
--   📊 Generate employee and department reports.
--   🧹 Rename `Devloper` to `Developer` throughout the program.
--   🖥️ Build a graphical user interface.
--   🌐 Convert the application into a web-based employee management
-    system.
-
-------------------------------------------------------------------------
-
-# 🗺️ Project Roadmap
-
-``` text
-[████████████████████] 100% Employee Class
-
-[████████████████████] 100% Manager Subclass
-
-[████████████████████] 100% Developer Subclass
-                       (named Devloper in current code)
-
-[████████████████████] 100% Encapsulation and Accessor Methods
-
-[████████████████████] 100% Method Overriding
-
-[████████████████████] 100% Menu-Driven Record Creation
-
-[████████████████████] 100% Display Records by Role
-
-[████████████████████] 100% Inheritance Checking
-
-[░░░░░░░░░░░░░░░░░░░░]   0% Search, Update and Delete
-
-[░░░░░░░░░░░░░░░░░░░░]   0% Persistent Data Storage
-
-[░░░░░░░░░░░░░░░░░░░░]   0% Database Integration
-
-[░░░░░░░░░░░░░░░░░░░░]   0% Graphical User Interface
+``` bash
+py employee_management.py
 ```
 
-*Roadmap percentages reflect the features present in the code shared for
-this README. Update them as the project evolves.*
+## 🧠 Learning Outcomes
 
-------------------------------------------------------------------------
+By building this project, I practised:
 
-# ⭐ Why I Built This Project
+- Creating classes and objects
+- Initializing attributes with constructors
+- Encapsulation using private attributes
+- Writing getter and setter methods
+- Implementing inheritance with parent and child classes
+- Reusing parent methods with `super()`
+- Overriding methods in child classes
+- Storing objects in lists
+- Using loops and conditional statements for a menu
+- Checking inheritance with `issubclass()`
 
-I created this project to strengthen my understanding of Python
-Object-Oriented Programming.
+## ⚠️ Current Limitations
 
-Instead of practising each concept separately, I combined classes,
-encapsulation, inheritance, method overriding, and object collections
-into one interactive application.
+- Records are stored in lists in memory and are lost when the program
+  exits.
+- There are no search, update, or delete menu options.
+- Duplicate employee IDs are not checked.
+- Invalid integer input can raise an error because input validation is
+  limited.
+- Getter and setter methods exist, but they are not accessible through a
+  menu option.
+- The current class name `Devloper` and some menu wording contain
+  spelling errors.
 
-This project helped me understand how a parent class can provide common
-functionality while child classes add their own specialized information.
+## 🔮 Future Improvements
 
-It is part of my journey toward becoming a stronger Python programmer
-and building practical software projects.
+- Add search, update, and delete features.
+- Validate age, salary, and employee ID input.
+- Prevent duplicate employee IDs.
+- Save and load records using JSON or CSV.
+- Add database support with SQLite.
+- Generate employee and department reports.
+- Rename `Devloper` to `Developer` consistently.
+- Create a graphical interface.
 
-------------------------------------------------------------------------
+## 🗺️ Roadmap
 
-# 👨‍💻 About the Developer
+- [x] Employee class
+- [x] Manager subclass
+- [x] Developer subclass (currently named `Devloper`)
+- [x] Encapsulation and getter/setter methods
+- [x] Method overriding
+- [x] Menu-driven record creation
+- [x] Display records by role
+- [x] Inheritance checking
+- [ ] Input validation
+- [ ] Search, update, and delete
+- [ ] Persistent data storage
+- [ ] Database integration
+- [ ] Graphical user interface
 
-::: {align="center"}
-## Python Developer \| Data Science and AI/ML Learner
+## 👨‍💻 About the Developer
 
-Currently learning and building projects using:
+**Python Developer \| Data Science and AI/ML Learner**
 
-``` text
-Python
-  ↓
-Data Structures
-  ↓
-Object-Oriented Programming
-  ↓
-Problem Solving
-  ↓
-Data Science
-  ↓
-AI / ML
-```
-:::
+I am learning Python and building practical projects to improve my
+programming, problem-solving, and software development skills.
 
-------------------------------------------------------------------------
-
-# 🌐 Connect With Me
-
-::: {align="center"}
 ### GitHub
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nandan-mandaliya-05/)
-:::
+
+## ⭐ Support
+
+If you find this project useful, consider starring the repository,
+sharing feedback, or suggesting improvements.
 
 ------------------------------------------------------------------------
 
-# ⭐ Support the Project
+<div align="center">
 
-If you find this project useful or interesting:
+### 🚀 Keep Learning. Keep Building. Keep Growing.
 
--   ⭐ **Star** the repository.
--   🍴 **Fork** the repository.
--   💬 Share your feedback and suggestions.
--   🤝 Connect with me on GitHub.
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=750&lines=Python+%7C+OOP+%7C+Problem+Solving;Keep+Learning+%7C+Keep+Building" alt="Animated footer" />
 
-Your feedback and suggestions can help improve future versions of this
-project.
+**Made with ❤️ and Python**
 
-------------------------------------------------------------------------
-
-::: {align="center"}
-# 🚀 Keep Learning. Keep Building. Keep Growing.
-
-`<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=750&lines=Python+%7C+OOP+%7C+Problem+Solving;Build+Projects+%7C+Learn+Concepts+%7C+Grow+Skills;Keep+Learning+%7C+Keep+Building" alt="Animated Footer"/>`{=html}
-
-`<br>`{=html}`<br>`{=html}
-
-**Made with ❤️ and Python by Nandan Mandaliya**
-:::
+</div>
